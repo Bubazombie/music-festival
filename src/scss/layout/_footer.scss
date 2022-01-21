@@ -1,0 +1,11 @@
+@use 'base/variables';
+
+.site-footer {
+    background-color: variables.$pink;
+    padding: 1rem;
+    p {
+        margin: 0;
+        text-align: center;
+        color: variables.$white;
+    }
+}
